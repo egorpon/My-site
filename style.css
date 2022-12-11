@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* .container {
+  margin: 0 auto;
+  width: 1400px;
+} */
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #f7f7f7;
+  background-color: #141111;
+}
+
+/* About */
+.aboutme h1 {
+  font-size: 6rem;
+  letter-spacing: -3.5px;
+}
+
+section {
+  width: 1286px;
+  margin: 0 auto;
+}
+
+.about-box {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-descr {
+  font-size: 18px;
+  max-width: 46%;
+  align-self: center;
+  line-height: 1.7;
+  flex: 1;
+}
+
+.ds:link,
+.ds:visited {
+  color: #f7f7f7;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ds:hover {
+  text-decoration: none;
+}
+
+.about-img img {
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  display: block;
+}
+
+/* Skills */
+
+.skills {
+  height: 360px;
+  margin-bottom: 40px;
+}
+.skills h2,
+.Experience h2,
+.contact h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.skill-box h3 {
+  font-size: 1.4rem;
+}
+
+.main-img img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.main-skill {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-skill h3 {
+  align-self: center;
+}
+
+.main-img {
+  width: 518px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* Experience */
+
+.Experience {
+  height: 360px;
+  margin-bottom: 40px;
+}
+
+.myExperience {
+  display: flex;
+  gap: 50px;
+}
+
+.expdescrive {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.myExperience img {
+  max-width: 50%;
+  max-height: 50%;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+}
+
+/* Contact */
+.Contact-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Contact-box i {
+  font-size: 1.8rem;
+}
+
+.contact-link,
+.contact-link:link .contact-link:visited {
+  color: #dee2e6;
+}
+
+.contact-link:active,
+.contact-link:hover {
+  color: #adb5bd;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+header {
+  background-color: #0f0d0d;
+  padding: 20px;
+}
+
+/* nav:first-child {
+  margin-left: 70px;
+} */
+nav {
+  font-size: 1.3rem;
+  display: flex;
+  gap: 60px;
+}
+nav:first-child {
+  margin-left: 60px;
+}
+nav a:link {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+nav a:visited {
+  color: #e9ecef;
+}
+nav a:hover {
+  color: #f7f7f7;
+  text-decoration: underline #f7f7f7;
+  font-weight: 700;
+}
+
+.copyright {
+  font-size: 14px;
+}
