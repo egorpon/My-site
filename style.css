@@ -128,7 +128,7 @@ section {
 
 .myExperience img {
   max-width: 50%;
-  max-height: 500px;
+  max-height: 50%;
   background-color: #f7f7f7;
   border-radius: 30px;
 }
